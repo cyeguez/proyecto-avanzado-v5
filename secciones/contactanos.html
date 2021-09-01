@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="En mi Web Site Contáctanos, a través de tu Nombre y el  email puedes contactarnos  seleccionando en asunto el motivo , existe una caja que te permite escribir en detalle el motivo de tu consulta, también puedes observar nuestra dirección en forma escrita o en el mapa, también está el contacto telefónico ">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/estilos.CSS" />
+  <title>CONTACTO</title>
+</head>
+
+<body>
+
+
+
+  <header>
+    <div class=" container-fluid barraTop">
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
+          class="d-iline-block align-center">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hoteles.html">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cruceros.html">Cruceros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./mis-reservas.html">Mis reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./acerca-de-nosotros.html">About</a>
+          </li>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
+            data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
+        </form>
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="./login.html" role="button">Login</a>
+          <a class="btn btn-warning" href="./crear-usuario.html" role="button">Sign-up</a>
+        </div>
+      </div>
+  </nav>
+
+
+
+  <section class="estucturaContacto ">
+
+    <main class="ms-auto ">
+    
+      <div class="row ">
+        <h1 class="fs-3 pt-5 text-start">¿En qué te podemos ayudar? </h1>
+        <p class="fs-6 " id="intro-contactanos">¿Tienes dudas?, contáctanos a través  de cualquiera de
+          los canales  que hemos dispuesto.
+        </p>
+        <section class=" mx-3 ">
+          <form action="" class="">
+            <div class=" col-11 col-sm-10 mb-3 col-lg-12 col-xl-8   ">
+              <label for="nombre" class="form-label">Nombre y apellido</label>
+              <input type=" text" required name="nombre" id="nombre" class="form-control">
+            </div>
+
+            <div class="col-11 col-sm-10 col-lg-12 col-xl-8  mb-5">
+              <label for="correo" class="form-label">Email</label>
+              <input type="text" name="correo" id="correo" class="form-control">
+            </div>
+
+           
+
+
+            <div class=" col-11 col-sm-10  col-lg-12 col-xl-8  mb-3 ">
+              
+             
+              <select class="form-select w-100">
+                <option selected>Asunto:</option>
+                <option value="peticion">Solicitud</option>
+                <option value="duda">Duda</option>
+                <option value="queja">Queja</option>
+                <option value="error">Error y fallos</option>
+                <option value="sugerencia">Sugerencias</option>
+                <option value="reclamo">Reclamo</option>
+              </select>
+            </div>
+
+            <div class=" col-11 col-sm-10 col-lg-12  col-xl-8 mt-5 mb-3 ">
+              <label for="mensaje" class="form-label  ">Descripción</label>
+              <textarea name="mensaje" class="form-control  id="areaDescripcion"></textarea>
+              
+            </div>
+
+            <div class="col-2 col-sm-10  col-lg-12 col-xl-8 d-grid d-flex ">
+              <button type="submit " class="btn btn-primary me-3">Enviar</button>
+              <button type="reset " class="btn btn-danger">Reset</button>
+            </div>
+
+
+
+          </form>
+        </section>
+      </div>
+
+
+
+    </main>
+    <aside class="mapaContacto ">
+      <div class=" mx-2 ubicanosContactanos col-sm-10  col-lg-12    ">
+        <ul class="list-group border-0">
+          <li class="list-group-item">
+            <h3 class="fs-1">La serena</h3>
+          </li>
+          <li class="list-group-item iconoDireccion"><img src="../imagenes/ubicacion.png" alt="icono de dirección">
+            Avda. Raul Salamanca
+            Jorquera 1650 </li>
+          <li class="iconoFono list-group-item"> <img src="../imagenes/fono.ico" alt="Icono de teléfono"> Fono 800
+            123-45-678</li>
+          <li class="iconoUbicacion list-group-item""><img src=" ../imagenes/googmap.ico" alt="icono de ubicación"> Ver
+            mapa </li>
+
+
+
+        </ul>
+
+        <div class="  col-11 justify-content-center  col-sm-10 col-lg-8 "  ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.9833687078644!2d-71.23570928457683!3d-29.922380981926967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cb3c40f889cd%3A0x2556ae2b979ad2d1!2sCondominio%20Serena%20Oriente!5e0!3m2!1ses-419!2scl!4v1626559857675!5m2!1ses-419!2scl"
+            width=100% height="300" style="border-radius: 5px;" allowfullscreen="" id="mapa loading="lazy"></iframe></li>
+        </div>
+      </div>
+
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="seccionContacto ">
+
+      <div class="seccionIndex container-lg-4 container-md-6 container-sm-8">
+        <div class="logoContacto">
+          <div class="seccionIndexLogo">
+            <img src="../imagenes/LogoMakr-1TST8n_auto_x2.png" width="80%" height="auto" alt="logo empresa" />
+          </div>
+          <div id="tcd">
+            <p>
+              <span class="fs-3 text-danger">800 123-45-678</span> <br />
+              <span class="fs-6 text-light">TravelParaiso@paraiso.com</span> <br />
+              <span class="fs-6 text-light">Avda. Raul Salamanca Jorquera 1650</span>
+            </p>
+          </div>
+        </div>
+        <div class="seccionAyudaIndex">
+          <ul>
+            <li>AYUDA</li>
+            <li>
+              <a href="./centro-ayuda.html ">
+                ir al centro de ayuda</a>
+            </li>
+            <li>
+              <a href="./Terminos y condicines genereales.html">Términos y condicines genereales</a>
+            </li>
+          </ul>
+        </div>
+        <div class="iRedesIndex">
+          <div class="tarjetas">
+            <img src="../imagenes/tarjeta.png" width="100%" alt=" tarjetas" />
+          </div>
+          <div class="iconsRedes">
+            <img src="../imagenes/facebook.png" alt="facebook " />
+            <img src="../imagenes/instagram.png" alt="instagram" />
+            <img src="../imagenes/youtube.png" alt="youtube" />
+            <img src="../imagenes/twitter.png" alt=" twitter" />
+          </div>
+        </div>
+      </div>
+
+      <footer class="footerIndex">
+
+        <p>
+          © copyright &copy; 2019-2023 Cesar Yeguez, todos los derechos
+          reservados.
+        </p>
+      </footer>
+    </div>
+
+
+
+
+
+
+    <!-- IMPORTANDO JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="En mi Web Site Vuelos puedes encontrar salidas areas, el viaje de tus sueños desde un lugar de origen y un lugar de llegada que elijas, fechas, puedes ver fotografias, medios de pagos, información de planes,números de contactos,  redes sociales y mucho mas.. ">
+  <meta name="keywords" content="Encuentra, Viajes, turismo, destinos, Fotografías ">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/estilos.CSS">
+  <!-- IMPORTANDO LIBRERIA DE ANIMACIONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Vuelos</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid barraTop">
+
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
+          class="d-iline-block align-center">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Vuelos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./secciones/hoteles.html">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/cruceros.html">Cruceros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/mis-reservas.html">Mis reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/acerca-de-nosotros.html">About</a>
+          </li>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
+            data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
+        </form>
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="./secciones/login.html" role="button">Login</a>
+          <a class="btn btn-warning" href="./secciones/crear-usuario.html" role="button">Sign-up</a>
+        </div>
+      </div>
+  </nav>
+
+
+  <main class=" bacgroudIndex ">
+    <div class="container-sm-12 container-md-6 container-lg-4  text-center pt-5 mb-5 ">
+      <h1 class=" 1animate__animated animate__heartBeat fs-1 text-light" > Encuentra el viaje de tus sueños
+      </h1>
+      <h2  class="fs-4 text-light ">
+        ¡Tu próxima aventura comienza aquí!
+      </h2>
+    </div>
+
+    <div class="container-md ">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <form>
+
+            <div class="d-md-flex  me-2 d-sm-block">
+              <div class="mb-3 form-check ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Ida y Vuelta </label>
+              </div>
+
+              <div class="mb-3 form-check ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Solo ida </label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Multitrayectos </label>
+              </div>
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Origen</label>
+              <input type="text" class="form-control" placeholder="Ingresa ciudad">
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Destino</label>
+              <input type="text" class="form-control" placeholder="Ingresa ciudad">
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Fecha <br> Ida</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Vuelta</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="d-grid">
+
+              <button type="submit" class="btn btn-primary mb-5">
+             Buscar
+              </button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="decorativo">
+    <span>
+      <hr /></span>
+  </div>
+
+
+
+  <!-- ---------------------------- GALERIA INDEX ---------------------------- -->
+
+  <section id="galeriaIndex" class="container">
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12  ">
+        <img
+          src="https://images.pexels.com/photos/351283/pexels-photo-351283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="https://cdn.pixabay.com/photo/2017/08/29/09/26/disney-2692578_960_720.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <img src="https://cdn.pixabay.com/photo/2017/04/29/03/28/cancun-2269936_960_720.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img
+          src="https://images.pexels.com/photos/2929906/pexels-photo-2929906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="https://t4.ftcdn.net/jpg/00/00/87/31/240_F_873127_ijczrNtlHnpCijb70sFGvooqDEtl81.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src=" https://t4.ftcdn.net/jpg/03/15/41/61/240_F_315416167_CCRievpwazWEwdrgdJOZm6WlXPuYlwvo.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <div class="decorativo">
+    <span>
+      <hr /></span>
+  </div>
+
+
+
+
+  <!-- --------------------------- MEDIOS DE PAGOS --------------------------- -->
+  <div class="mediosPagos">
+
+    <section class="pagosIndex">
+      <div class="mediosPagos1">
+        <p ">
+          ¡PAGA COMO <br />
+          QUIERAS!
+        </p>
+      </div>
+      <div class="mediosPagos2 ">
+        <img src="https://www.querubin.cl/wp-content/uploads/2020/08/TTA_logo_redcompra_w.png" alt="medios de pagos"
+          width="300  " height="auto">
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid  widget mb-5">
+    <div class="widget1  ">
+      <div class="hijoW1">
+        <img src="./imagenes/undraw_Travelers_re_y25a.png" width="audo" height="150px" alt="" />
+        <h3 class="tWH3">SOMOS EXPERTOS <br />EN DIVERSIÓN</h3>
+        <p>
+          Llevamos más de 15 años <br />
+          llendote al Paraiso
+        </p>
+      </div>
+      <div class="hijoW2">
+        <img src="./imagenes/undraw_environment_iaus.png" width="auto" height="150px" alt="Dinero" />
+        <h3 class="tWH3">
+          Atrapamos las <br>
+          mejores ofertas
+        </h3>
+        <div class="pWidget">
+          <p>
+            Queremos verte disfrutar más <br />
+            de tu tiempo libre.
+          </p>
+        </div>
+      </div>
+      <div class="hijoW3">
+        <img src="./imagenes/undraw_light_the_fire_gt58.png" width="auto" height="150px" alt=" Luz" />
+        <h3 class="tWH3">
+          Compartimos los <br />
+          mejores planes
+        </h3>
+        <div class="pWidget">
+          <p>
+            Nuestra comunidad te ayuda a descubrir todo <br />
+            lo que te ofrece la vida más allá del sofá.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="seccionIndex container-lg-4 container-md-6 container-sm-8 ">
+    <div class="logoContacto">
+      <div class="seccionIndexLogo">
+        <img src="./imagenes/LogoMakr-1TST8n_auto_x2.png" width="100%" height="auto" alt="logo empresa" />
+        </div>
+        <div id="tcd">
+        <p>
+          <span class="fs-3 text-danger">800 123-45-678</span> <br />
+          <span class="fs-6 text-light">TravelParaiso@paraiso.com</span> <br />
+          <span class="fs-6 text-light">Avda. Raul Salamanca Jorquera 1650</span>
+        </p>
+      </div>
+    </div>
+    <div class="seccionAyudaIndex">
+      <ul>
+        <li>AYUDA</li>
+        <li>
+          <a href="./secciones/centro-ayuda.html ">
+            ir al centro de ayuda</a>
+        </li>
+        <li>
+          <a href="./secciones/Terminos y condicines genereales.html ">Términos y condicines genereales</a>
+        </li>
+      </ul>
+    </div>
+    <div class="iRedesIndex">
+      <div class="tarjetas">
+        <img src="./imagenes/tarjeta.png"  alt=" tarjetas" />
+      </div>
+      <div class="iconsRedes">
+        <img src="./imagenes/facebook.png" alt="facebook " />
+        <img src="./imagenes/instagram.png" alt="instagram" />
+        <img src="./imagenes/youtube.png" alt="youtube" />
+        <img src="./imagenes/twitter.png" alt=" twitter" />
+      </div>
+    </div>
+  </div>
+
+<footer class="footerIndex">
+
+    <p >
+      © copyright &copy; 2019-2023 Cesar Yeguez, todos los derechos
+      reservados.
+    </p>
+  </footer>
+  </div>
+
+ 
+
+
+
+
+
+  <!----------------------- IMPORTANDO JAVASCRIPT -------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

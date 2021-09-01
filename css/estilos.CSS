@@ -1,0 +1,1814 @@
+.esquinaRedonda {
+  border-radius: 5px;
+}
+
+/* color de fondo */
+.colorFondo {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav-item:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+
+
+.barraTop {
+  grid-area: lgI;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right bottom, #ffffff, #f5f5f7, #eaebef, #dfe1e8, #d4d7e0, #ccd2dc, #c2cdd8, #b9c8d4, #b1c6d1, #a9c4cc, #a2c2c6, #9dc0be);
+  align-items: center;
+  padding-right: 10px;
+}
+
+
+
+.menuIndex li a:hover {
+  color: rgb(195, 113, 38);
+}
+
+.menuIndex ul li:hover {
+  transform: scale(1.1);
+}
+
+
+.bacgroudIndex {
+  background-image: url("../imagenes/fondo1.jpg");
+  background-size: cover;
+  width: 100%;
+
+}
+
+
+
+/* ------------------------------ Titulos Index ------------------------------ */
+
+
+/* ------------------------- Titulo Index fin ------------------------------ */
+
+
+/* --------------------------- GALERIA INDEX GRID --------------------------- */
+
+
+#galeriaIndex img {
+  width: 100%;
+  height: 250px;
+
+
+}
+
+#galeriaIndex .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+
+#galeriaIndex img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+
+
+.tGaleriaIndex {
+  grid-area: t2;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 5px;
+}
+
+.tGaleriaIndex h2 {
+  color: #29353e;
+  font-weight: 900;
+  font-size: 50px;
+
+}
+
+.tGaleriaIndex {
+  transition: width 2s, height 1s;
+
+
+}
+
+.tGaleriaIndex h2:hover {
+  height: 300px;
+  background-color: rgb(67, 186, 233);
+
+}
+
+
+
+
+.mediosPagos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #e6e8ee;
+  margin: 0 10px 30px px;
+
+}
+
+.pagosIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* --------------------------- GALERIA INDEX GRID FIN------------------------- */
+
+
+
+.contenido1 image:hover {
+  filter: opacity(.5);
+}
+
+.contenido1 first div :hover {
+  transform: translate(10px, 40px);
+}
+
+.contenedorOrigen {
+  display: flex;
+  justify-content: center;
+  flex-flow: center wrap;
+  align-content: center;
+}
+
+/* EFECTO DE APLIACION DE GALERIAINDEX1 */
+.galeriaIndex1:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+/* EFECTO DE APLIACION DE GALERIAINDEX1 */
+.efectoAgrandarZom:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.bloque {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelIndex {
+
+  color: #3b3d42;
+
+
+}
+
+.cantidadAdultos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cantidadAdultos input {
+  width: 50px;
+  height: 30px;
+}
+
+.cantidadAdultos label {
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+#botonBuscar input:not([type=text]) :not([type=date]) {
+  width: 100px;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: -40px;
+}
+
+.s1 {
+  color: #29353e;
+  font-size: 24px;
+}
+
+.decorativo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.decorativo hr {
+  width: 80px;
+  height: 7px;
+  background-color: rgb(67, 186, 233);
+  border: none;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+
+
+
+
+/* ---------------------------- ESTILOS INDEX FIN --------------------------- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                             ESTILOS DE CRUCEROS                            */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.galCrucero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+
+
+
+
+
+
+
+.widget {
+
+  height: 400px;
+  margin-top: 50px;
+}
+
+.widget1 {
+  width: auto;
+  height: 80%;
+  padding-left: 50px;
+  color: #29353e;
+  font-size: 11pt;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pWidget {
+  width: 100%;
+
+}
+
+.tWH3 {
+  color: #29353e;
+  font-size: 16pt;
+  font-weight: 900;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+.hijow1 p {
+  font-size: 14px;
+}
+
+.seccionIndex {
+  margin-top: 500px;
+  width: 100%;
+  height: auto;
+  background-color: #29353e;
+}
+
+.seccionAyudaIndex {
+  display: flex;
+  margin-left: 80px;
+}
+
+.seccionAyudaIndex ul {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.seccionAyudaIndex li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logoContacto {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-top: 20px;
+  align-items: center;
+
+}
+
+
+
+.seccionIndexLogo p {
+  display: block;
+  justify-content: flex-end;
+  text-align: end;
+  line-height: 25px;
+}
+
+
+.iRedesIndex {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.tarjetas {
+  margin-left: 120px;
+}
+
+.footerIndex {
+  grid-area: pieIndex;
+  text-align: center;
+  color: #29353e;
+  height: fit-content;
+  background-color: white;
+  position: sticky;
+}
+
+/* posicion de logo corporativo */
+.encabezado a img {
+  display: block;
+  width: 50 px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.colorFuente {
+  color: white;
+}
+
+#tamanoBoton {
+  width: 130px;
+}
+
+/*  */
+.navegacion ul {
+  margin: 1px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #29353e;
+  list-style: none;
+  height: 80px;
+  color: white;
+}
+
+/* color de letras y quitar decoracion de lista */
+.navegacion li {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navegacion a {
+  color: white
+}
+
+#iconoSesion {
+  position: relative;
+  top: 60px;
+  left: 95%;
+}
+
+.sesionUsuario {
+  width: 500px;
+  height: 400px;
+  margin-left: 60px;
+  margin-bottom: -200px;
+}
+
+.sesionUsuario button {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgb(245, 241, 241);
+  font-style: italic;
+}
+
+.inicioSesion {
+  width: 500px;
+  margin-left: 250px;
+  background-color: rgb(245, 241, 241);
+  height: 500px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.inicioSesion h1 {
+  padding-top: 20px;
+  margin-left: 60px;
+}
+
+.titulo2Login h2 {
+  height: 600px;
+  color: black;
+  text-align: center;
+}
+
+.sesionUsuario h2 {
+  color: #001011;
+}
+
+/* sesion de login hasta aqui */
+/* Iniciar sesion con redes */
+.loginUsuario {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 700px;
+  height: auto;
+  background-color: #ebebeb;
+
+  border-radius: 5px;
+  margin: 50px auto;
+
+}
+
+.loginUsuario div {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.loginUsuario a {
+  justify-content: stretch;
+}
+
+
+.loginUsuario ul {
+  justify-content: center;
+}
+
+.loginUsuario img {
+  width: 25px;
+  height: 25px;
+}
+
+.loginUsuario li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.posicionIcono {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.decoracionA {
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#tituloLogin {
+  text-align: center;
+}
+
+#titulo2Login {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.titulo4Login {
+  text-align: center;
+  height: 200px;
+}
+
+.formularioUsuarios {
+  margin-bottom: 300px;
+  margin-left: 40px;
+}
+
+.formularioUsuarios input:not([type=checkbox]) {
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+}
+
+/* Iniciar sesion con redes  hasta aqui*/
+.cl .radio input {
+  margin: 10px;
+}
+
+.radio label:hover {
+  background-color: #e7e5e5;
+  color: #29353e;
+  font-weight: 800;
+}
+
+
+
+
+.radio {
+  margin-left: 200px;
+}
+
+.radio label {
+  font-size: 25px;
+}
+
+.datosSesion {
+  margin: 20px;
+}
+
+.datosSesion h2 {
+  margin-bottom: 20px;
+}
+
+.tituloIndex {
+
+  color: #29353e;
+  font-weight: 800;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tamañoIndex {
+  min-width: 600px;
+  height: 80vh;
+}
+
+.titulo2Index {
+  font-size: 25px;
+  color: #29353e;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* cantidad de boletos  input radio */
+/* busqueda */
+.inicioViaje label {
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+.vueloIndex {
+  Background-color: transparent;
+}
+
+.alinear {
+  display: inline;
+}
+
+.cantidadAdultos {
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+}
+
+.buscarVuelo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buscarVuelo input {
+  width: 300px;
+  height: 46px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+main form section {
+
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+
+
+}
+
+.busquedaIndex {
+  display: grid;
+  justify-items: center;
+  column-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 20px;
+  grid-template-rows: 1fr;
+  width: 80%;
+  background-color: white;
+  height: 200px;
+}
+
+.busquedaIndex div input[type="submit"] {
+
+  justify-items: end;
+  width: 200px;
+}
+
+
+.bBusc {
+  width: 150px;
+
+  margin-top: 18px;
+  align-items: start;
+}
+
+.estilosInput {
+  background-color: rgb(233, 233, 233);
+  border: none;
+  width: auto;
+  height: 50px;
+}
+
+h4 {
+  color: #001011
+}
+
+.ayuda a {
+  color: white;
+}
+
+.ayuda li {
+  list-style: none;
+}
+
+.vueloIndex {
+  margin-bottom: 600px;
+}
+
+.datePrisa {
+  text-align: center;
+  position: relative;
+  top: -100px;
+  font-size: 30px;
+}
+
+/* hasta aqui t* galeria */
+.centrado {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 15pt;
+  padding: 15px;
+  background-color: red;
+  justify-content: center;
+}
+
+.seccion1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.seccion2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* estilo index hasta aqui */
+/* estilo del footer */
+.footerPiePagina {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #001011;
+}
+
+.footerPiePagina p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.footerPiePagina img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkFinal {
+  background-color: rgb(100, 102, 104);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                           ESTILOS HOTELES INICIO                           */
+/* -------------------------------------------------------------------------- */
+
+
+
+.contenidoHotel {
+  height: 900px;
+
+}
+
+.backgroudHotel {
+  background-image: url("../imagenes/portada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+
+
+
+
+
+
+main .buscandoHoteles {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+
+
+
+
+.buscandoHoteles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  width: 600px;
+  height: 350px;
+  margin-bottom: 200px;
+
+}
+
+.campo1 {
+
+  margin-top: 20px;
+
+}
+
+.campo1 p {
+  font-size: 12px;
+  color: #29353e;
+  font-weight: 400;
+
+
+}
+
+.campo1 input {
+  width: 450px;
+  height: 30px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+
+.campo2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.campo2 p {
+  font-size: 12px;
+  color: #29353e;
+  font-weight: 400;
+
+}
+
+.campo2 input {
+  width: 210px;
+  height: 30px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  margin-right: 30px;
+}
+
+
+
+
+.campo3 {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.campo3 div {
+  margin-right: 30px;
+}
+
+.campo3 input {
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  margin-right: 30px;
+
+
+}
+
+
+.campo3 p {
+  font-size: 12px;
+  color: #29353e;
+  font-weight: 400;
+
+}
+
+
+.campo4 {
+  margin-top: 20px;
+
+}
+
+.campo4 input {
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  border: none;
+}
+
+.buscandoHoteles .campo4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.negro::placeholder {
+  color: #29353e;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.galeriaHoteles {
+
+  margin: 100px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                             ESTILOS HOTELES FIN                            */
+/* -------------------------------------------------------------------------- */
+/* Esto son los link que salen abajo en la pagina hasta aqui */
+
+/* mis reservas */
+.reserva {
+  display: flex;
+  justify-content: center;
+}
+
+.miReservas {
+  height: 800px;
+  background-image: url("https://sp.depositphotos.com/vector-images/fondo-azul.html?search_params=eyJjdGYiOjEsImZbYXVkaW9fdHlwZV0iOm51bGx9");
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.miReservas fieldset {
+  border-radius: 10px;
+}
+
+.miReservas label {
+  display: flex;
+  padding-left: 20px;
+}
+
+.miReservas h1 {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.miReservas p {
+  margin-left: 20px;
+  margin-top: 30px;
+  color: black;
+  margin-bottom: 60px;
+  width: 450px;
+}
+
+.miReservas div {
+  margin-left: 120px;
+  display: inline;
+}
+
+.miReservas input:not([type=submit]) {
+  width: 400px;
+  height: 30px;
+  margin: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#buscaReserva {
+  width: 200px;
+  margin-left: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.miReservas a {
+  margin-left: 150px;
+}
+
+/* mis reservas hasta aqui*/
+/* cruceros */
+.contenidoCrucero {
+  height: 800px;
+  width: auto;
+}
+
+.backgroudCrucero {
+  background-image: url("https://topadventure.com/__export/1597178843820/sites/laverdad/img/2020/08/11/mejores_cruceros_del_mundo_1.jpg_1766478952.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#botonBCrucero {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(245, 241, 241);
+  color: #29353e;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+}
+
+.contactoCruceros {
+  margin-top: 100px;
+}
+
+.contactoCruceros p {
+  text-align: center;
+  color: #29353e;
+}
+
+#tCrucero {
+  font-size: 50px;
+  font-weight: 900;
+  color: #29353e;
+}
+
+#tCrucero2 {
+  font-weight: 900;
+  color: #29353e;
+  font-size: 25px;
+}
+
+.destinos p {
+  text-align: center;
+  margin-top: 8%;
+  color: #29353e;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.galeriaCruceros {
+  margin-top: 8%;
+  width: 100%;
+  margin-bottom: 700px;
+}
+
+.galeriaCruceros img {
+
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+}
+
+.galeriaCruceros div {
+  margin: 10px;
+}
+
+.galeriaCrucero1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.precios {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 150px;
+}
+
+.precios1 {
+  width: 400px;
+  background-color: #ebebeb;
+  margin-top: -10px;
+
+}
+
+.precios1 p {
+  margin: 5px;
+}
+
+.botonPrecio {
+  width: 24.375rem;
+  height: 1.875rem;
+  background-color: #29353e;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.galeriaCruceros2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.galeriaCruceros img {
+  margin-top: 50px;
+}
+
+.letraGrande {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.galeriaCruceros2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.ayudaTerminosCruceros {
+  width: 100%;
+  height: 200px;
+  background-color: #c9c5c9;
+  margin-top: 100px;
+  padding-left: 15px;
+  margin-bottom: 60px;
+}
+
+/* cruceros hasta aqui */
+/* seccion de localizador */
+.localizador {
+  height: 600px;
+
+  padding-top: 20px;
+}
+
+/* --------------------------- BUSCAR-LOCALIZADOR --------------------------- */
+.backgroudLocalizador {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+
+
+/* seccion de contactanos hasta aqui */
+/* Crean usuario */
+.usuarioRedes {
+  width: 400px;
+  min-height: 700px;
+  margin-left: 500px;
+  margin-top: 160px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+}
+
+.usuarioRedes button {
+  border-radius: 5px;
+}
+
+.usuarioRedes button {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-bottom: 18px;
+  background-color: white;
+  border-radius: 4HB px;
+}
+
+#botEnvio {
+  margin-top: -5px;
+  pad: 15px;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.separacionLogUsuairo p {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.separacionCrearUsuario hr {
+  background-color: black;
+  width: 300px;
+  height: 2px;
+}
+
+/* Crean usuario hasta aqui */
+/* Centro de Ayuda */
+.formCentroAyuda {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.tituloCentroAyuda {
+  padding-top: 20px;
+}
+
+.titulo2CentroAyuda {
+  padding: 15px;
+  padding-left: 5px;
+}
+
+#ayudaP1 {
+
+  width: 800px;
+  line-height: 30px;
+
+}
+
+#ayudaP2 {
+  width: 800px;
+  line-height: 30px;
+}
+
+#ayudaP3 {
+  width: 800px;
+  line-height: 30px;
+}
+
+
+#tBusqueda {
+  width: 666px;
+  height: 25px;
+}
+
+.formCentroAyuda hr {
+  border-color: #DBDBDB;
+}
+
+.formCentroAyuda ::placeholder {
+  color: black;
+  padding-left: 10px;
+}
+
+#botonCentroAyuda {
+  width: 70px;
+  height: 25px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+/* Centro de Ayuda hasta aqui*/
+/* terminos y condiciones */
+.tituloTerminos {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.titulo2Terminos {
+  margin-top: 15px;
+
+  text-align: center;
+}
+
+.terminos {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  height: 40vh;
+  color: black;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.fondoTerminos {
+  background-image: url("/imagenes/terminos\ y\ condiciones.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 90%;
+}
+
+.terminos p {
+  text-align: justify;
+  width: 70%;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* terminos y condiciones hasta aqui */
+/* footerContactanos */
+.tamañoIcono img {
+  width: 25px;
+  height: 25px;
+}
+
+/* footerContactanos hasta aqui */
+/* SECCIÓN CONTACTO */
+/* SECCIÓN CONTACTO */
+.estucturaContacto {
+  display: grid;
+  grid-template-areas:
+
+    " p3 p3 p4"
+    "p3 p3 p4"
+    "p5 p5 p5"
+    " p6 p6 p6"
+  ;
+  grid-auto-rows: repeat(5, 2fr);
+}
+
+
+
+.contenidoContacto {
+  grid-area: p3;
+  margin-top: 50px;
+}
+
+.mapaContacto {
+  grid-area: p4;
+  width: 100%;
+}
+
+.seccionContacto {
+  grid-area: p5;
+}
+
+.pieContacto {
+  grid-area: p6;
+}
+
+.formularioContactanos {
+  display: grid;
+  grid-template-rows: repeat(6, 2fr);
+  height: 500px
+}
+
+.contenidoContacto .formularioContactanos {
+  display: flex;
+  flex-flow: colum wrap;
+  justify-content: center;
+  height: 800px;
+  margin-top: 50px
+}
+
+.inputNombre {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 10px
+}
+
+.inputNombre input {
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+  height: 30px
+}
+
+.inputNombre label {
+  margin-bottom: 10px;
+  color: #29353e;
+  font-weight: 700;
+}
+
+.inputEmail {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 40px
+}
+
+.inputEmail label {
+  color: #29353e;
+  font-weight: 700;
+}
+
+.inputEmail input {
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+  height: 30px
+}
+
+.opcionAsunto {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  align-items: flex-start;
+}
+
+.opcionAsunto select {
+  width: 100px;
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+}
+
+.opcionAsunto option {
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+}
+
+.opcionAsunto label {
+  color: #29353e;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+}
+
+.inputDescripcion {
+  display: flex;
+  flex-direction: column;
+}
+
+#areaDescripcion {
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+}
+
+.inputBotones {
+  margin-top: 15px;
+}
+
+
+section h1 {
+  color: #29353e;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+
+section #parrafoContacto {
+  margin: 0 auto;
+}
+
+aside ul {
+  list-style: none;
+}
+
+.mapaContacto div {
+  margin-top: 100px;
+}
+
+.mapaContacto h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* SECCIÓN CONTACTO */
+
+#cajaAlto {
+  height: 200px;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.opcionAsunto {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  align-items: flex-start;
+}
+
+.opcionAsunto select {
+  width: 100px;
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+}
+
+.opcionAsunto option {
+  border: solid 1px rgb(209, 207, 207);
+  background-color: rgb(233, 233, 233);
+}
+
+
+.inputDescripcion {
+  display: flex;
+  flex-direction: column;
+}
+
+#areaDescripcion {
+  border: solid 1px rgb(209, 207, 207);
+  ;
+}
+
+
+
+section h1 {
+  color: #29353e;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#parrafoContacto {
+  text-align: justify;
+  width: 700px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #29353e;
+  line-height: 18px;
+}
+
+section #parrafoContacto {
+  margin: 0 auto;
+}
+
+aside ul {
+  list-style: none;
+}
+
+.mapaContacto div {
+  margin-top: 100px;
+}
+
+.mapaContacto h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* SECCIÓN CONTACTO */
+
+/* -------------------------------------------------------------------------- */
+/*                         SECCION ACERCA DE NOSOTROS    INICIO                     */
+/* -------------------------------------------------------------------------- */
+
+
+.cuerpoNosotros {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.videoSomos {
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+
+  align-items: center;
+  align-content: center;
+  margin: 40px auto
+}
+
+.videoSomos video {
+  width: 100%;
+  height: autopx;
+  border-radius: 10px;
+
+}
+
+#contenidoNosotros {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#parra1 {
+
+  width: 70%;
+  height: auto;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 30px;
+
+}
+
+#parra2 {
+
+  width: 70%;
+  height: auto;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#parra3 {
+
+  width: 70%;
+  height: auto;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.negrita {
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+.mayusculas {
+  text-transform: uppercase;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.cursiva {
+  font-style: italic;
+}
+
+.espacioLetras {
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                         SECCION ACERCA DE NOSOTROS  FIN                */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------MEDIAQUERIES--------------------- */
+/* -------------------------------------------------------------------------- */
+/*                               PANTALLA CHICA  INICO                           */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width:575.98px) {
+  body {
+    background-color: rgb(255, 118, 118);
+
+
+  }
+
+  .widget1 {
+    display: block;
+
+
+  }
+
+  .iconsRedes {
+    display: none;
+  }
+
+  .mediosPagos p {
+    display: none;
+  }
+
+  .seccionAyudaIndex {
+    margin-left: 0;
+
+
+
+  }
+
+  .seccionAyudaIndex li a {
+    font-weight: normal;
+    font-size: 12px;
+    ;
+
+  }
+
+  .tarjetas {
+    margin: 0 auto;
+  }
+
+  #tcd {
+    display: none;
+  }
+
+  .botonPrecio {
+    width: 100px;
+
+
+  }
+
+  .estucturaContacto {
+    display: grid;
+    grid-template-areas:
+
+      " p3  "
+      "p4 "
+      "p5"
+      " p6 "
+    ;
+
+  }
+
+  .list-group {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cuerpoNosotros p {
+    width: 100%;
+    font-size: x-small;
+  }
+
+  .intro-contactanos {
+    
+    text-align: justify;
+
+  }
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                               PANTALLA TABLET   INICIO                        */
+/* -------------------------------------------------------------------------- */
+
+@media (min-width:576px) and (max-width:767.98px) {
+  body {
+    background-color: rgb(115, 250, 171);
+  }
+
+  .widget1 {
+    display: block;
+  }
+
+  .iconsRedes {
+    display: none;
+  }
+
+  .botonPrecio {
+    width: 200px;
+
+
+  }
+
+  .card #tamPrecio {
+    margin: 0 auto;
+    width: 400px;
+  }
+
+  .estucturaContacto {
+    display: grid;
+    grid-template-areas:
+
+      " p3  "
+      "p4 "
+      "p5"
+      " p6 "
+    ;
+
+  }
+
+  .list-group {
+    width: 85%;
+  }
+
+  #mapa {
+    display: flex;
+    justify-content: start;
+    ;
+  }
+
+  .cuerpoNosotros p {
+    width: 100%;
+    font-size: small;
+    text-align: justify;
+    margin: 30 auto;
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               PANTALLA TABLET                           */
+/* -------------------------------------------------------------------------- */
+
+
+@media (min-width:768px) and (max-width:991.98px) {
+  body {
+    background-color: rgb(235, 181, 111);
+
+  }
+
+  .botonPrecio {
+    width: 100px;
+
+
+  }
+
+  .cuerpoNosotros p {
+    width: 70%;
+    font-size: medium;
+    text-align: justify;
+    margin: 20px auto;
+
+  }
+
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            LAPTOP                        */
+/* -------------------------------------------------------------------------- */
+
+@media(min-width:992px) and (max-width:1999.98px) {
+  .card #tamPrecio {
+    margin: 0 auto;
+    width: 400px;
+  }
+
+  .cuerpoNosotros p {
+    width: 80%;
+    text-align: justify;
+    font-size: x-large;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .intro-contactanos {
+    width: 50%;
+  text-align: justify;
+  }
+
+
+
+}
